@@ -1,0 +1,23 @@
+36 ?- father(ahmed, omar).
+true.37 ?- father(ahmed, dana).
+true.38 ?- mother(nora, omar).
+true .
+
+39 ?- mother(nora, hind).
+true .40 ?- father(ahmed,hind).
+true.
+41 ?- mother(ahmed,hind).
+false.42 ?- sister(hind, dana).
+true .43 ?- mother(nora, dana).
+true .44 ?- sister(dana,hind).
+true .
+
+45 ?- brother(omar,hind).
+true 46 ?- brother(omar,dana).
+true .
+
+47 ?- mother(hind,deema).
+true.
+
+48 ?- sister(deema,lama).
+true.
